@@ -10,7 +10,7 @@ PHP scritps to convert Ultima Online Cliloc files to JSON, back and forth, to cr
 
 ## Example of a Cliloc.json file
 
-Here is a [live version of a Cliloc.json](https://raw.githubusercontent.com/felladrin/uo-5.0.9.1-cliloc-ptb/master/Cliloc.json), being used to build a cliloc for brazilian portuguse.
+Here is a [live version of a Cliloc.json](https://raw.githubusercontent.com/felladrin/uo-5.0.9.1-cliloc-ptb/master/Cliloc.json), that is being used to build a brazilian portuguese cliloc.
 
 ## Requirements
 
