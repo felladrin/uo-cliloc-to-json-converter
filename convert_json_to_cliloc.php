@@ -2,9 +2,9 @@
 ini_set('memory_limit', '512M');
 
 $inputClilocs = [];
-$directoryItarator = new DirectoryIterator('input');
+$directoryIterator = new DirectoryIterator('input');
 
-foreach ($directoryItarator as $fileInfo)
+foreach ($directoryIterator as $fileInfo)
     if (strpos(strtolower($fileInfo->getFilename()), 'cliloc') !== false)
         array_push($inputClilocs, ['filePath' => $fileInfo->getPathname(), 'language' => strtoupper($fileInfo->getExtension())]);
 
